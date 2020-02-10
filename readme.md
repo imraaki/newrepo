@@ -1,2 +1,2 @@
-This is homepage instance 
+This is searchpage instance 
 It is under master
