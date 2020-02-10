@@ -1,2 +1,2 @@
-Hi This is master instance
-This file will be pushed to github
+Hi This is changes instance
+It is under master.
