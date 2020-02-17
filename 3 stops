@@ -1,0 +1,97 @@
+{
+    "routes": [
+        {
+            "distance": null,
+            "num_stops": 1,
+            "times": {
+                "flight": "22:30",
+                "layover": "2:45"
+            },
+            "redemptions": [
+                {
+                    "miles": 40000,
+                    "program": null
+                }
+            ],
+            "payments": [
+                {
+                    "currency": "USD",
+                    "taxes": "286.75",
+                    "fees": "0"
+                }
+            ],
+            "site_key": "A",
+            "connections": [
+                {
+                    "departure": {
+                        "when": "2020-02-13T07:05+05:30",
+                        "airport": "BLR"
+                    },
+                    "arrival": {
+                        "when": "2020-02-13T12:45",
+                        "airport": "LHR"
+                    },
+                    "airline": "BA",
+                    "flight": [
+                        "BA118"
+                    ],
+                    "cabin": "economy",
+                    "distance": null,
+                    "aircraft": {
+                        "model": "Industrie A350-1000",
+                        "manufacturer": "Airbus"
+                    },
+                    "times": {
+                        "flight": "11:10",
+                        "layover": "02:45"
+                    },
+                    "redemptions": null,
+                    "payments": null,
+                    "tickets": null,
+                    "fare_class": "COACH"
+                },
+                {
+                    "departure": {
+                        "when": "2020-02-13T15:30",
+                        "airport": "LHR"
+                    },
+                    "arrival": {
+                        "when": "2020-02-13T18:50-08:00",
+                        "airport": "LAX"
+                    },
+                    "airline": "BA",
+                    "flight": [
+                        "BA269"
+                    ],
+                    "cabin": "economy",
+                    "distance": null,
+                    "aircraft": {
+                        "model": "A380-800 Passenger",
+                        "manufacturer": "Airbus"
+                    },
+                    "times": {
+                        "flight": "11:20",
+                        "layover": "00:00"
+                    },
+                    "redemptions": null,
+                    "payments": null,
+                    "tickets": null,
+                    "fare_class": "COACH"
+                }
+            ]
+        }
+    ],
+    "metrics": {
+        "response_time": 4396,
+        "sites": {
+            "A": {
+                "url": "https://www.aa.com",
+                "status": "OK",
+                "description": "OK",
+                "response_time": 3785,
+                "airline": "AA",
+                "results": 1
+            }
+        }
+    }
+}
